@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Không cần import main.js ở đây -->
+</head>
+<body> 
+    <form>
+        <div class="item">
+            <div id="selection">KẾT QUẢ HỌC TẬP</div>
+            <div class="selection">
+                <label for="">Toán:</label>
+                <input id="toan" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Lý:</label>
+                <input id="ly" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Hóa:</label>
+                <input id="hoa"  type="text">
+            </div>
+            <div class="selection">
+                <label for="">Điểm chuẩn:</label>
+                <!-- Thêm value="20" để đặt giá trị mặc định là 20 -->
+                <input class="red" id="diemChuan" type="text" value="20">
+            </div>
+            <div class="selection">
+                <label for="">Tổng điểm:</label>
+                <input id="tongDiem"  class="type" type="text">
+            </div> 
+            <div class="selection">
+                <label for="">Kết quả thi:</label>
+                <input id="ketQuaThi"  class="type" type="text">
+            </div> 
+            <div class="selection-button">
+                <!-- Sử dụng type="button" thay vì type="submit" -->
+                <button type="button" onclick="ketquadaihoc()">Xem kết quả</button> 
+            </div>
+        </div>  
+    </form> 
+    <script src="main.js">
+        
+    </script> <!-- Import main.js ở cuối thẻ body -->
+</body>
+</html>

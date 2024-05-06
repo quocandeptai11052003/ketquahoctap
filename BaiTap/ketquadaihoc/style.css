@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+} 
+form{
+    align-items: center; 
+    display: block;
+    width: 700px;
+    height: 430px;
+    background-color: #D795B5;
+} 
+#selection{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    padding: 10px; 
+    height: 30px;
+    font-size: 30px;
+    color: white;
+    background-color: #CF3267;
+}
+.selection{ 
+    margin: 20px 30px
+}
+.selection label{
+    float: 10px;
+    font-size: 22px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.selection input{ 
+    float: right;
+    width: 300px;
+    height: 30px; 
+}
+.selection-button{
+    float: right;
+    margin: 4px 30px;
+    margin-right: 180px; 
+}
+.selection-button button{
+    height: 40px;
+    width: 150px;
+}
+.type{
+    background-color: #FFFDCD;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Không cần import main.js ở đây -->
+</head>
+<body> 
+    <form>
+        <div class="item">
+            <div id="selection">KẾT QUẢ HỌC TẬP</div>
+            <div class="selection">
+                <label for="">Điểm HK1:</label>
+                <input id="diemHK1" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Điểm HK2:</label>
+                <input id="diemHK2" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Điểm trung bình:</label>
+                <input id="diemTrungBinh" class="type" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Kết quả:</label>
+                <input id="ketQua" class="type" type="text">
+            </div>
+            <div class="selection">
+                <label for="">Xếp loại học lực:</label>
+                <input id="xepLoai"  class="type" type="text">
+            </div> 
+            <div class="selection-button">
+                <!-- Sử dụng type="button" thay vì type="submit" -->
+                <button type="button" onclick="tinhDiemTrungBinhVaXepLoai()">Xem kết quả</button> 
+            </div>
+        </div>  
+    </form> 
+    <script src="main.js">
+        
+    </script> <!-- Import main.js ở cuối thẻ body -->
+</body>
+</html>
